@@ -1,0 +1,157 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+    font-size: 42px;
+    color:#b0e0e6;
+    letter-spacing: 10px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 60px;
+}
+
+h2 {
+    color: #2a90bf;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    text-decoration: underline;
+}
+
+h3 {
+    color: #40E0D0;
+}
+
+p {
+    font-size: 18px;
+    color: #2a90bf;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-left: 80px; 
+    margin-right: 80px;
+}
+
+.navList {
+    background-color: #2a90bf;
+    box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.2);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+.navList li {
+    float: right;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.navList a {
+    color: #fff;
+    padding: 14px 22px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+    white-space: nowrap;
+}
+
+.navList a:hover {
+    background-color: #B6E1F6;
+    color: #036796;
+}
+
+.hov a {
+    color: #2a90bf; 
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.hov a:hover {
+    /* background-color: #89CFF0; */
+    color: #a0d8f3;
+}
+
+.navList > li {
+    position: relative;
+}
+
+.navList > li > div {
+    visibility: hidden;
+    position: absolute;
+    background-color: #89cff0;
+    box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    transition: .1s;
+    opacity: 0;
+}
+
+.navList > li:hover > div {
+    visibility: visible;
+    opacity: 1;
+}
+
+.main {
+    flex: 1;
+    overflow: auto;
+    padding: 20px;
+}
+
+.ucsb {
+    /*background-color: #c9eeff;*/
+    background-color: white;
+    width: 100px;
+    border: 20px solid #2a90bf;
+    padding: 10px 30px;
+    margin: auto;
+}
+
+.line {
+    color: #2a90bf;
+    /*color: white;*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: 700;
+    /*letter-spacing: 2px;*/
+    /*text-align: center;*/
+    animation: type 1.5s steps(7);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid white;
+    width: 7ch;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 7ch;
+    }
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    margin-left:0px;
+    margin-right: 0px;
+    width: 60px;
+    height: 80px;
+}
+
+.fixed:hover{
+    opacity: 0.5;
+}
+
+.arrow {
+    font-size:40px;
+    margin: 20px;
+}
