@@ -24,11 +24,19 @@ h1 {
     font-weight: 600;
     margin-bottom: 30px;
     padding: 20px;
+<<<<<<< HEAD
+    text-align: center;
+=======
+>>>>>>> 9dc4cba701876f7a3308bccd4920731d376c89cd
 }
 
 h2 {
     color: #05a9f6; /* #89CFF0 */
     font-weight: normal;
+<<<<<<< HEAD
+    text-align: center;
+=======
+>>>>>>> 9dc4cba701876f7a3308bccd4920731d376c89cd
 }
 
 h3 {
@@ -45,9 +53,33 @@ body {
 
 p {
     font-size: 20px;
-    color: #89CFF0;
+    color: #048fd0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+}
+
+img {
+    float: left;
+    /* padding-left: 15%;
+    margin: 40px 20px 40px 0px; */
+    margin-right: 20px;
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 325px;
+    padding-top: 40px;
+    /* border: 1px dotted black; */
+
+}
+
+
+.clear {
+    clear: left;
 }
 
 .navList {
