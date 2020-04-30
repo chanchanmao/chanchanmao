@@ -37,6 +37,13 @@ p {
     margin-right: 80px;
 }
 
+footer {
+    position: static;
+    background-color: #2a90bf;
+    letter-spacing: 4px;
+    padding: 5px;
+}
+
 .navList {
     background-color: #2a90bf;
     box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.2);
@@ -101,7 +108,8 @@ p {
 .main {
     flex: 1;
     overflow: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 20px;
 }
 
 .ucsb {
@@ -145,6 +153,7 @@ p {
     margin-right: 0px;
     width: 60px;
     height: 80px;
+    color: black;
 }
 
 .fixed:hover{

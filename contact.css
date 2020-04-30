@@ -36,6 +36,14 @@ p {
    margin-right: 40px;
 }
 
+footer {
+    position: static;
+    background-color: #2a90bf;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 4px;
+    padding: 5px;
+}
+
 .navList {
     background-color: #2a90bf;
     box-shadow: 0 2px 8px 0px rgba(0, 0, 0, 0.2);
@@ -88,7 +96,8 @@ p {
 .main {
     flex: 1;
     overflow: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 20px;
 }
 
 .contact {
